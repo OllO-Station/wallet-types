@@ -1,9 +1,14 @@
 {
-  "author": "Terraform Labs PTE.LTD",
+  "author": "OLLO Station",
   "license": "Apache-2.0",
-  "repository": "git://github:terra-money/wallet-provider",
-  "bugs": "https://github.com/terra-money/wallet-provider/issues",
-  "homepage": "https://github.com/terra-money/wallet-provider/tree/main/packages/src/@terra-money/wallet-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OllO-Station/wallet-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OllO-Station/wallet-types.git/issues"
+  },
+  "homepage": "https://github.com/OllO-Station/wallet-types.git",
   "engines": {
     "node": ">=16"
   },
@@ -12,8 +17,8 @@
     "access": "public"
   },
   "typings": "index.d.ts",
-  "name": "@terra-money/wallet-types",
-  "version": "4.0.1",
+  "name": "@nestwallet/wallet-types",
+  "version": "1.2.0",
   "dependencies": {
     "@terra-money/feather.js": "^1.0.0-beta.4"
   },
@@ -88,5 +93,9 @@
       "node": "./_commonjs/wallet.js",
       "default": "./wallet.js"
     }
+  },
+  "description": "This is a separate package because it is used for [`@nestwallet/use-wallet`](https://www.npmjs.com/package/@nestwallet/use-wallet), [`@nestwallet/wallet-controller`](https://www.npmjs.com/package/@nestwallet/wallet-controller), and [`@nestwallet/wallet-provider`](https://www.npmjs.com/package/@nestwallet/wallet-provider).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

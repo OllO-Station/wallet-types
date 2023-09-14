@@ -1,6 +1,6 @@
-# Common types of `@terra-money/wallet-provider`
+# Common types of `@nestwallet/wallet-provider`
 
-This is a separate package because it is used for [`@terra-money/use-wallet`](https://www.npmjs.com/package/@terra-money/use-wallet), [`@terra-money/wallet-controller`](https://www.npmjs.com/package/@terra-money/wallet-controller), and [`@terra-money/wallet-provider`](https://www.npmjs.com/package/@terra-money/wallet-provider).
+This is a separate package because it is used for [`@nestwallet/use-wallet`](https://www.npmjs.com/package/@nestwallet/use-wallet), [`@nestwallet/wallet-controller`](https://www.npmjs.com/package/@nestwallet/wallet-controller), and [`@nestwallet/wallet-provider`](https://www.npmjs.com/package/@nestwallet/wallet-provider).
 
 You don't have to use this separately.
 
